@@ -1048,10 +1048,23 @@ main{
 }
 
 
-#bodyfooter{
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.6;
+.bodyfooter {
+  background-color: #222; /* dark background */
+  color: #f1f1f1;          /* light text */
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.bodyfooter a {
+  color: #00bcd4; /* light blue link */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.bodyfooter a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 
