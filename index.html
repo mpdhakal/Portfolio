@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add this inside the <head> for better mobile handling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
      <!--=== MAIN CSS ===-->
      <link rel="stylesheet" href="style.css">
      <!--=== FONTAMESOME CSS ===-->
@@ -11,6 +13,12 @@
      <title>Personal Protfolio Website</title>
     
   </head>
+  <!-- Add smooth scroll behavior -->
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
   <body>
     <!--=== HEADER SECTION ===-->
     <header>
