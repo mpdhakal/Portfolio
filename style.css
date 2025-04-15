@@ -1075,11 +1075,7 @@ section {
   text-decoration: underline;
 
 
-@media (max-width: 600px) {
-  .bodyfooter p {
-    font-size: 14px;
-  }
-}
+
 
 
 
