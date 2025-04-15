@@ -1048,13 +1048,7 @@ main{
 }
 
 /* === FOOTER STYLING === */
-section {
-  background-color: #222;
-  color: #f1f1f1;
-  padding: 30px 20px;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 
 .bodyfooter p {
   margin: 0;
