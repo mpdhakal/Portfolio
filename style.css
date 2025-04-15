@@ -39,10 +39,10 @@ header .profile {
 
 
 header .profile img {
-   width: 100px;
+   width: 150px;
    border-radius: 50%;
    border: 10px solid var(--iconbgColor);
-   box-shadow: 0 15px 80px 1px #5e6ad6;
+   box-shadow: 0 15px 100px 1px #5e6ad6;
 
 }
 
