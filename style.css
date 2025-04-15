@@ -1047,26 +1047,6 @@ main{
    }
 }
 
-/* === FOOTER STYLING === */
-
-
-.bodyfooter p {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-.bodyfooter a {
-  display: inline-block;
-  margin-top: 5px;
-  color: #00bcd4;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.bodyfooter a:hover {
-  color: #ffffff;
-  text-decoration: underline;
 
 
 
