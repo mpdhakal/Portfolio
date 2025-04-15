@@ -124,7 +124,7 @@ header .footer {
    background-color: var(--sidebgColor);
    width: 300px;
    color: lightgray;
-   font-size: 14px;
+   font-size: 12px;
    letter-spacing: 0.6px;
    padding: 15px;
    position: fixed;
