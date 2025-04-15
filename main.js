@@ -1,19 +1,16 @@
-<script>
-  // Toggle mobile nav
-  const menuBtn = document.getElementById("MenuBtn");
-  const header = document.querySelector("header");
+// Header Toggle
+let MenuBtn = document.getElementById('MenuBtn')
 
-  menuBtn.addEventListener("click", () => {
-    header.classList.toggle("active");
-  });
+MenuBtn.addEventListener('click', function(e) {
+   document.querySelector('body').classList.toggle('movile-nav-active');
+   this.classList.toggle('fa-xmark')
+})
 
-  // Smooth scroll active state
-  const links = document.querySelectorAll("nav ul li a");
-  links.forEach(link => {
-    link.addEventListener("click", () => {
-      links.forEach(item => item.classList.remove("active"));
-      link.classList.add("active");
-      header.classList.remove("active"); // Close menu on mobile
-    });
-  });
-</script>
+// Typing Effect
+let typed = new Typed('#auto-input', {
+    strings: ['Front-End Developer!', 'Web Designer!','Youtuber!' ],
+    typeSpeed: 90,
+    backSpeed: 90,
+    backDelay: 100,
+    loop: true,
+})
